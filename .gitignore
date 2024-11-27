@@ -1,0 +1,30 @@
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment or environment-specific files
+.env
+.venv/
+*.env
+
+# Ignore Python poetry files
+poetry.lock
+poetry.toml
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python version files
+.python-version
+
+# Ignore data or temporary files
+data/
+*.log
+*.tmp
+
+# Ignore compiled C extensions
+*.so
